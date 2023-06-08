@@ -1,7 +1,11 @@
-import react from 'react'
+
+import axios from '../../axios'
 import './Banner.css'
 
 function Banner() {
+    useEffect(() => {
+         axios.get
+    }, [])
     return(
         <div className='banner'>
              <div className='content'>
